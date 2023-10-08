@@ -10,7 +10,7 @@ My Ruby on Rails 7.1 boilerplate.
 * FontAwesome
 * Active Record Session Store
 * active_decorator
-* Config
+* dotenv
 * Whenever
 * Awesome Print
 * Annotate
