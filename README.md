@@ -14,7 +14,7 @@ My Ruby on Rails 7.1 boilerplate.
 * Whenever
 * Awesome Print
 * Annotate
-* rack-dev-mark ((forked))[https://github.com/h-izumi/rack-dev-mark/tree/rack3]
+* rack-dev-mark [(forked)](https://github.com/h-izumi/rack-dev-mark/tree/rack3)
 * RSpec
 * DatabaseRewinder
 * factory_bot
