@@ -28,9 +28,9 @@ sed = if RbConfig::CONFIG['host_os'] =~ /darwin/
 app_parent_dir = Dir.pwd
 
 Dir.chdir('/tmp')
-`curl -L -o skelton71.zip https://github.com/h-izumi/skelton71/archive/trilogy.zip`
+`curl -L -o skelton71.zip https://github.com/h-izumi/skelton71/archive/sampleapp.zip`
 `unzip skelton71.zip`
-`mv skelton71-trilogy #{app_parent_dir}/#{app_name}`
+`mv skelton71-sampleapp #{app_parent_dir}/#{app_name}`
 `rm skelton71.zip`
 
 Dir.chdir("#{app_parent_dir}/#{app_name}")

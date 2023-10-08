@@ -24,26 +24,26 @@ etc...
 
 ## How to use
 
-Use [setup.rb](https://raw.githubusercontent.com/h-izumi/skelton71/trilogy/setup.rb):
+Use [setup.rb](https://raw.githubusercontent.com/h-izumi/skelton71/sampleapp/setup.rb):
 
 ```shell
 cd /path/to/app-parent
-curl -L https://raw.githubusercontent.com/h-izumi/skelton71/trilogy/setup.rb | APP_NAME="app-name" ruby
+curl -L https://raw.githubusercontent.com/h-izumi/skelton71/sampleapp/setup.rb | APP_NAME="app-name" ruby
 ```
 
 * Set `NO_COMMIT=true` to skip `git commit`.
 
 ```shell
-curl -L https://raw.githubusercontent.com/h-izumi/skelton71/trilogy/setup.rb | APP_NAME="app-name" NO_COMMIT=true ruby
+curl -L https://raw.githubusercontent.com/h-izumi/skelton71/sampleapp/setup.rb | APP_NAME="app-name" NO_COMMIT=true ruby
 ```
 
 or Manually:
 
 ```shell
 cd /path/to/app-parent
-curl -L -o skelton71.zip https://github.com/h-izumi/skelton71/archive/trilogy.zip
+curl -L -o skelton71.zip https://github.com/h-izumi/skelton71/archive/sampleapp.zip
 unzip skelton71.zip
-mv skelton71-trilogy app-name
+mv skelton71-sampleapp app-name
 rm skelton71.zip
 cd app-name
 find . -type f -print0 | xargs -0 sed -i -e 's/SKELTON71/APP_NAME/g'
