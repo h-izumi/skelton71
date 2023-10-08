@@ -14,6 +14,7 @@ default: &default
   encoding: utf8mb4
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   socket: <%= ENV.fetch('SKELTON71_DATABASE_SOCKET') %>
+  host: <%= ENV.fetch('SKELTON71_DATABASE_HOST') %>
   database: <%= ENV.fetch('SKELTON71_DATABASE') %>
   username: <%= ENV.fetch('SKELTON71_DATABASE_USER') %>
   password: <%= ENV.fetch('SKELTON71_DATABASE_PASSWORD') %>
