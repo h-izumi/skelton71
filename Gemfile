@@ -86,5 +86,6 @@ group :development do
 
   # Analysis tools.
   gem "brakeman"
+  gem "rails_best_practices"
 end
 
