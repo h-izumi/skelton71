@@ -179,6 +179,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (3.0.8)
+    rack-dev-mark (0.7.11)
+      rack (>= 1.1, < 4.0)
     rack-mini-profiler (3.1.1)
       rack (>= 1.2.0)
     rack-session (2.0.0)
@@ -288,6 +290,7 @@ DEPENDENCIES
   jbuilder
   kredis
   puma (>= 5.0)
+  rack-dev-mark
   rack-mini-profiler
   rails (~> 7.1.0)
   redis (>= 4.0.1)
