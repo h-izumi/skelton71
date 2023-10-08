@@ -1,24 +1,66 @@
-# README
+# skelton71
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My Ruby on Rails 7.1 boilerplate.
 
-Things you may want to cover:
+* Ruby 3.2.2
+* Ruby on Rails 7.1.0
+  * `rails new . -T -c=bootstrap`
+* Use MySQL
+* Haml
+* FontAwesome
+* Active Record Session Store
+* active_decorator
+* Config
+* Whenever
+* Awesome Print
+* Annotate
+* rack-dev-mark
+* RSpec
+* DatabaseRewinder
+* factory_bot
+* Brakeman
+* rails_best_practices
+etc...
 
-* Ruby version
+## How to use
 
-* System dependencies
+Use [setup.rb](https://raw.githubusercontent.com/h-izumi/skelton71/main/setup.rb):
 
-* Configuration
+```shell
+cd /path/to/app-parent
+curl -L https://raw.githubusercontent.com/h-izumi/skelton71/main/setup.rb | APP_NAME="app-name" ruby
+```
 
-* Database creation
+* Set `NO_COMMIT=true` to skip `git commit`.
 
-* Database initialization
+```shell
+curl -L https://raw.githubusercontent.com/h-izumi/skelton71/main/setup.rb | APP_NAME="app-name" NO_COMMIT=true ruby
+```
 
-* How to run the test suite
+or Manually:
 
-* Services (job queues, cache servers, search engines, etc.)
+```shell
+cd /path/to/app-parent
+curl -L -o skelton71.zip https://github.com/h-izumi/skelton71/archive/main.zip
+unzip skelton71.zip
+mv skelton71-main app-name
+rm skelton71.zip
+cd app-name
+find . -type f -print0 | xargs -0 sed -i -e 's/SKELTON71/APP_NAME/g'
+find . -type f -print0 | xargs -0 sed -i -e 's/skelton71/app_name/g'
+find . -type f -print0 | xargs -0 sed -i -e 's/Skelton71/AppName/g'
+rm README.md
+rm LICENSE.txt
+rm setup.rb
+git init
+git add .
+git commit -m "initial."
+```
 
-* Deployment instructions
+If use on macOS, you should set argument ` ''` after `sed -i`, like `sed -i '' -e`.
 
-* ...
+## License
+
+[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed).
+
+You probably should remove `LICENSE.txt` file when use this repo on your work.
