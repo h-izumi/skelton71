@@ -85,6 +85,7 @@ group :development do
   gem "annotate"
 
   # Analysis tools.
+  gem "rubocop-rails"
   gem "brakeman"
   gem "rails_best_practices"
 end
