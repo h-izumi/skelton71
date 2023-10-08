@@ -26,6 +26,9 @@ gem "stimulus-rails"
 # Bundle and process CSS [https://github.com/rails/cssbundling-rails]
 gem "cssbundling-rails"
 
+# Use Bootstrap, bootstrap_form
+gem "bootstrap_form", "~> 5.3"
+
 # Use Haml
 gem "haml-rails"
 gem "html2haml"
