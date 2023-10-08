@@ -94,6 +94,7 @@ group :development do
   # Analysis tools.
   gem 'rubocop-rails'
   gem 'rubocop-rspec'
+  gem 'rubocop-factory_bot'
   gem 'brakeman'
   gem 'rails_best_practices'
 end

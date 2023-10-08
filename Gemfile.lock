@@ -382,6 +382,7 @@ DEPENDENCIES
   rails_best_practices
   redis (>= 4.0.1)
   rspec-rails (~> 6.0.0)
+  rubocop-factory_bot
   rubocop-rails
   rubocop-rspec
   spring
