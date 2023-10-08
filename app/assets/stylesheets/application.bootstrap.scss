@@ -2,3 +2,15 @@
 @import 'bootstrap-icons/font/bootstrap-icons';
 
 @import 'rails_bootstrap_forms.css';
+
+main {
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+}
