@@ -82,6 +82,7 @@ group :development, :test do
   # Testing.
   gem 'rspec-rails', '~>  6.0.0'
   gem 'rails-controller-testing'
+  gem 'database_rewinder'
 end
 
 group :development do
