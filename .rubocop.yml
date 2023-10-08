@@ -1,0 +1,68 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  NewCops: enable
+
+Bundler/OrderedGems:
+  Enabled: false
+
+Layout/ExtraSpacing:
+  Exclude:
+    - 'db/migrate/*'
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  Enabled: false
+
+Layout/SpaceInsidePercentLiteralDelimiters:
+  Enabled: false
+
+Metrics/AbcSize:
+  Exclude:
+    - 'db/migrate/*'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/*'
+
+Style/BlockComments:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Exclude:
+    - 'spec/**/*'
+
+Style/Metrics/BlockLength:
+  Exclude:
+    - 'config/**/*'
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/CommentAnnotation:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Exclude:
+    - 'app/controllers/**'
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Style/RedundantConstantBase:
+  Enabled: false
+
+Style/RedundantFetchBlock:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
