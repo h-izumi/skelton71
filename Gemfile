@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 ruby '3.2.2'
 
+# Configuration
+gem 'dotenv-rails', require: 'dotenv/rails-now'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.1.0'
 
