@@ -90,6 +90,7 @@ group :development do
 
   # Analysis tools.
   gem 'rubocop-rails'
+  gem 'rubocop-rspec'
   gem 'brakeman'
   gem 'rails_best_practices'
 end
