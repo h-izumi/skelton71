@@ -57,6 +57,9 @@ gem 'bootsnap', require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 gem 'image_processing', '~> 1.2'
 
+# I18n.
+gem 'rails-i18n', '~> 7.0.0'
+
 # Use FactoryBot.
 gem 'factory_bot_rails'
 
