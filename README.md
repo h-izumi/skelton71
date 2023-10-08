@@ -24,7 +24,7 @@ etc...
 
 ## How to use
 
-Use [setup.rb](https://raw.githubusercontent.com/h-izumi/skelton71/main/setup.rb):
+Use [setup.rb](https://raw.githubusercontent.com/h-izumi/skelton71/trilogy/setup.rb):
 
 ```shell
 cd /path/to/app-parent
@@ -41,7 +41,7 @@ or Manually:
 
 ```shell
 cd /path/to/app-parent
-curl -L -o skelton71.zip https://github.com/h-izumi/skelton71/archive/main.zip
+curl -L -o skelton71.zip https://github.com/h-izumi/skelton71/archive/trilogy.zip
 unzip skelton71.zip
 mv skelton71-trilogy app-name
 rm skelton71.zip
