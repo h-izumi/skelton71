@@ -29,6 +29,9 @@ gem "cssbundling-rails"
 # Use Bootstrap, bootstrap_form
 gem "bootstrap_form", "~> 5.3"
 
+# Use Active Record for session store.
+gem "activerecord-session_store"
+
 # Use Haml
 gem "haml-rails"
 gem "html2haml"
