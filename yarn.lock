@@ -5,6 +5,13 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@fortawesome/fontawesome-free@npm:^6.4.2":
+  version: 6.4.2
+  resolution: "@fortawesome/fontawesome-free@npm:6.4.2"
+  checksum: 14be8fbb8faa62473c01fe70590e39cdc76a0083b791537fd3d2215a790d2722d917242b1f7948e160876934a8d3823c764af9b8d4ef6dc1ecad55b585e5b776
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -155,6 +162,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:."
   dependencies:
+    "@fortawesome/fontawesome-free": ^6.4.2
     "@popperjs/core": ^2.11.8
     autoprefixer: ^10.4.16
     bootstrap: ^5.3.2
