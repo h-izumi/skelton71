@@ -92,6 +92,7 @@ GEM
       activemodel (>= 6.1)
     builder (3.2.4)
     cgi (0.3.6)
+    chronic (0.10.2)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
     crass (1.0.6)
@@ -264,6 +265,8 @@ GEM
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    whenever (1.0.0)
+      chronic (>= 0.6.3)
     zeitwerk (2.6.12)
 
 PLATFORMS
@@ -295,6 +298,7 @@ DEPENDENCIES
   turbo-rails
   tzinfo-data
   web-console
+  whenever
 
 RUBY VERSION
    ruby 3.2.2p53
