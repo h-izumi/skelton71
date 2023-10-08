@@ -73,7 +73,7 @@ gem 'factory_bot_rails'
 gem 'whenever', require: false
 
 # Show environment.
-gem 'rack-dev-mark'
+gem 'rack-dev-mark', git: 'https://github.com/h-izumi/rack-dev-mark.git', branch: 'rack3'
 
 # Improve console.
 gem 'awesome_print'
